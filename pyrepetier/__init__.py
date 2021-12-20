@@ -2,9 +2,9 @@ from . import clsserver, clsprinter
 import logging
 import requests
 
-logger = logging.getLogger('pyrepetier')
+logger = logging.getLogger('pyrepetier-ng')
 
-__version__ = '3.0.5'
+__version__ = '1.0.0'
 
 
 class Repetier():
