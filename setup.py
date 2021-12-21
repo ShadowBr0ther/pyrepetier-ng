@@ -3,6 +3,9 @@
 from pyrepetier import __version__
 import setuptools
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setuptools.setup(
     name = 'pyrepetier-ng',
     version = __version__,
@@ -11,5 +14,7 @@ setuptools.setup(
     author_email = 'l.buettner@repetier.com',
     license= 'MIT',
     url = 'https://github.com/ShadowBr0ther/pyrepetier-ng',
-    packages=setuptools.find_packages(),
+    package_dir={"":"src"},
+    packages=setuptools.find_packages(where="src"),
+    python_requires=">=3.6"
 )
