@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyrepetier-ng/__init__.py
+src/pyrepetier-ng/clsprinter.py
+src/pyrepetier-ng/clsserver.py
+src/pyrepetier_ng.egg-info/PKG-INFO
+src/pyrepetier_ng.egg-info/SOURCES.txt
+src/pyrepetier_ng.egg-info/dependency_links.txt
+src/pyrepetier_ng.egg-info/top_level.txt
