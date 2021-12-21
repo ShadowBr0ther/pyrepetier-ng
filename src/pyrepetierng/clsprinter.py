@@ -98,6 +98,9 @@ class Printer():
         if data is None:
             return
 
+        if 'activeExtruder' not in data:
+            return
+
         if self._job == "none":
             self._job = None
 

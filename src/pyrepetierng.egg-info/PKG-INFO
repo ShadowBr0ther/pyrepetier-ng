@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
-Name: pyrepetier-ng
-Version: 1.0.0
-Summary: A new python Repetier-Server library based on Mtrabs library
+Name: pyrepetierng
+Version: 0.1.0
+Summary: A updated python Repetier-Server library based on Mtrabs library
 Home-page: https://github.com/ShadowBr0ther/pyrepetier-ng
 Author: ShadowBr0ther
 Author-email: lb@revin-tech.com

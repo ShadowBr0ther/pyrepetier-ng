@@ -2,7 +2,7 @@ from . import clsserver, clsprinter
 import logging
 import requests
 
-logger = logging.getLogger('pyrepetier-ng')
+logger = logging.getLogger('pyrepetierng')
 
 __version__ = '1.0.0'
 
